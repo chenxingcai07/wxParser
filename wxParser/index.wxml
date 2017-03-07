@@ -145,7 +145,7 @@
 
     <!--a类型-->
     <block wx:elif="{{item.tag == 'a'}}">
-      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-src="{{item.attr.href}}"  style="{{item.styleStr}}">
+      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-href="{{item.attr.href}}"  style="{{item.styleStr}}">
         <block wx:for="{{item.nodes}}" wx:for-item="item" wx:key="">
           <template is="wxParser2" data="{{item}}"/>
         </block>
@@ -218,7 +218,7 @@
 
     <!--a类型-->
     <block wx:elif="{{item.tag == 'a'}}">
-      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-src="{{item.attr.href}}"  style="{{item.styleStr}}">
+      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-href="{{item.attr.href}}"  style="{{item.styleStr}}">
         <block wx:for="{{item.nodes}}" wx:for-item="item" wx:key="">
           <template is="wxParser3" data="{{item}}"/>
         </block>
@@ -290,7 +290,7 @@
 
     <!--a类型-->
     <block wx:elif="{{item.tag == 'a'}}">
-      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-src="{{item.attr.href}}"  style="{{item.styleStr}}">
+      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-href="{{item.attr.href}}"  style="{{item.styleStr}}">
         <block wx:for="{{item.nodes}}" wx:for-item="item" wx:key="">
           <template is="wxParser4" data="{{item}}"/>
         </block>
@@ -362,7 +362,7 @@
 
     <!--a类型-->
     <block wx:elif="{{item.tag == 'a'}}">
-      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-src="{{item.attr.href}}"  style="{{item.styleStr}}">
+      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-href="{{item.attr.href}}"  style="{{item.styleStr}}">
         <block wx:for="{{item.nodes}}" wx:for-item="item" wx:key="">
           <template is="wxParser5" data="{{item}}"/>
         </block>
@@ -434,7 +434,7 @@
 
     <!--a类型-->
     <block wx:elif="{{item.tag == 'a'}}">
-      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-src="{{item.attr.href}}"  style="{{item.styleStr}}">
+      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-href="{{item.attr.href}}"  style="{{item.styleStr}}">
         <block wx:for="{{item.nodes}}" wx:for-item="item" wx:key="">
           <template is="wxParser6" data="{{item}}"/>
         </block>
@@ -506,7 +506,7 @@
 
     <!--a类型-->
     <block wx:elif="{{item.tag == 'a'}}">
-      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-src="{{item.attr.href}}"  style="{{item.styleStr}}">
+      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-href="{{item.attr.href}}"  style="{{item.styleStr}}">
         <block wx:for="{{item.nodes}}" wx:for-item="item" wx:key="">
           <template is="wxParser7" data="{{item}}"/>
         </block>
@@ -577,7 +577,7 @@
 
     <!--a类型-->
     <block wx:elif="{{item.tag == 'a'}}">
-      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-src="{{item.attr.href}}"  style="{{item.styleStr}}">
+      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-href="{{item.attr.href}}"  style="{{item.styleStr}}">
         <block wx:for="{{item.nodes}}" wx:for-item="item" wx:key="">
           <template is="wxParser8" data="{{item}}"/>
         </block>
@@ -649,7 +649,7 @@
 
     <!--a类型-->
     <block wx:elif="{{item.tag == 'a'}}">
-      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-src="{{item.attr.href}}"  style="{{item.styleStr}}">
+      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-href="{{item.attr.href}}"  style="{{item.styleStr}}">
         <block wx:for="{{item.nodes}}" wx:for-item="item" wx:key="">
           <template is="wxParser9" data="{{item}}"/>
         </block>
@@ -721,7 +721,7 @@
 
     <!--a类型-->
     <block wx:elif="{{item.tag == 'a'}}">
-      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-src="{{item.attr.href}}"  style="{{item.styleStr}}">
+      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-href="{{item.attr.href}}"  style="{{item.styleStr}}">
         <block wx:for="{{item.nodes}}" wx:for-item="item" wx:key="">
           <template is="wxParser10" data="{{item}}"/>
         </block>
@@ -793,7 +793,7 @@
 
     <!--a类型-->
     <block wx:elif="{{item.tag == 'a'}}">
-      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-src="{{item.attr.href}}"  style="{{item.styleStr}}">
+      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-href="{{item.attr.href}}"  style="{{item.styleStr}}">
         <block wx:for="{{item.nodes}}" wx:for-item="item" wx:key="">
           <template is="wxParser11" data="{{item}}"/>
         </block>
@@ -865,7 +865,7 @@
 
     <!--a类型-->
     <block wx:elif="{{item.tag == 'a'}}">
-      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-src="{{item.attr.href}}"  style="{{item.styleStr}}">
+      <view bindtap="wxParserTagATap" class="wxParser-inline {{item.classStr}} wxParser-{{item.tag}}" data-href="{{item.attr.href}}"  style="{{item.styleStr}}">
         <block wx:for="{{item.nodes}}" wx:for-item="item" wx:key="">
           <template is="wxParser12" data="{{item}}"/>
         </block>
