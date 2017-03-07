@@ -27,10 +27,10 @@ const parse = (bindName = 'wxParserData', htmlContent, target) => {
   that.tapWxParserImg = (e) => {
     var src = e.target.dataset.src;
     var tagFrom = e.target.dataset.from;
-    if (typeof (tagFrom) != 'undefined' && tagFrom.length > 0) {
+    if (typeof (tagFrom) !== 'undefined' && tagFrom.length > 0) {
       wx.previewImage({
         current: src, // 当前显示图片的 http 链接
-        urls: that.data[tagFrom].imageUrls // 需要预览的图片http链接列表
+        urls: that.data[tagFrom].imageUrls // 需要预览的图片 http 链接列表
       })
     }
   };
