@@ -32,7 +32,7 @@
 **JS**
 
 ```
-let wxParser = require('../../wxParser/index');
+const wxParser = require('../../wxParser/index');
 
 Page({
   data: {},
