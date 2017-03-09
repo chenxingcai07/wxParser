@@ -58,10 +58,17 @@ Page({
 })
 ```
 
+**WXSS**
+
+```
+@import '../wxParser/index.wxss'
+```
+
 ### 注意
 
 ---
 
 - `JS` 中的 `richText` 可以自定义，但是必须要与 `WXML` 中的 `richText` 对应
 - 推荐把 template 放到 `<view class="wxParser"></view>` 内部，这样可以受 `wxParser` 控制并具有 `wxParser` 的一些默认样式
+- 不建议直接修改 `wxParser` 默认样式（因为内容库样式会有定期更新），应该新增一个样式补丁文件用来自定义样式
 
