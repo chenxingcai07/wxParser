@@ -1,7 +1,3 @@
-让 HTML 富文本能在微信小程序正常显示的组件
-
----
-
 ### 步骤
 
 - 把 `wxParser` 目录放到小程序项目的根目录下
@@ -20,6 +16,8 @@
 
 ### 示例
 
+---
+
 **WXML**
 
 ```
@@ -32,12 +30,12 @@
 **JS**
 
 ```
-var wxParser = require('../../wxParser/index');
+let wxParser = require('../../wxParser/index');
 
 Page({
   data: {},
   onLoad: function () {
-    var that = this;
+    let that = this;
     let html = `<div style="color: #f00;">hello, wxParser!</div>`;
     wxParser.parse({
       bind: 'richText',
@@ -57,6 +55,8 @@ Page({
 ```
 
 ### 注意
+
+---
 
 - `JS` 中的 `richText` 可以自定义，但是必须要与 `WXML` 中的 `richText` 对应
 - 推荐把 template 放到 `<view class="wxParser"></view>` 内部，这样可以受 `wxParser` 控制并具有 `wxParser` 的一些默认样式
