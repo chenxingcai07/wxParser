@@ -1,5 +1,7 @@
 ### 步骤
 
+---
+
 - 把 `wxParser` 目录放到小程序项目的根目录下
 - 在需要富文本解析的的 `WXML` 内引入 `wxParser/index.wxml`
 - 在页面 `JS` 文件内使用 `wxParser.parse(options)` 方法渲染内容
@@ -37,6 +39,7 @@ Page({
   onLoad: function () {
     let that = this;
     let html = `<div style="color: #f00;">hello, wxParser!</div>`;
+
     wxParser.parse({
       bind: 'richText',
       html: html,
@@ -50,6 +53,7 @@ Page({
         });
       }
     });
+
   }
 })
 ```
