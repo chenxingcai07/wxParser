@@ -7,6 +7,8 @@
 3. 在页面 `JS` 文件内使用 `wxParser.parse(options)` 方法解析 `HTML` 内容
 4. 在小程序项目根目录的 `app.wxss` 内引入 `wxParser` 的默认样式库
 
+---
+
 **`wxParser.parse(options)` 方法的 `options` 参数说明**
 
 | 参数名 | 类型   | 必填 |描述 |
