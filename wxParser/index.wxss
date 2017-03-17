@@ -2,7 +2,9 @@
  * wxParser 基础样式
  */
 
-view {
+.wxParser-div,
+.wxParser-p,
+{
   word-break: break-all;
   overflow: auto;
   max-width: 100%;
@@ -50,42 +52,6 @@ view {
 .wxParser-h6 {
   font-size: .75em;
   margin: 1.67em 0
-}
-
-.wxParser-h1 {
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: .9em;
-}
-
-.wxParser-h2 {
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: .34em;
-}
-
-.wxParser-h3 {
-  font-weight: 400;
-  font-size: 15px;
-  margin-bottom: .34em;
-}
-
-.wxParser-h4 {
-  font-weight: 400;
-  font-size: 14px;
-  margin-bottom: .24em;
-}
-
-.wxParser-h5 {
-  font-weight: 400;
-  font-size: 13px;
-  margin-bottom: .14em;
-}
-
-.wxParser-h6 {
-  font-weight: 400;
-  font-size: 12px;
-  margin-bottom: .04em;
 }
 
 .wxParser-h1,
