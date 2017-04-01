@@ -22,36 +22,40 @@
 }
 
 .wxParser-p {
-  margin: 5px 0;
+  margin: 5rpx 0;
+}
+
+.wxParser-br {
+  height: 1em;
 }
 
 .wxParser-h1 {
   font-size: 2em;
-  margin: .67em 0
+  margin: .67em 0;
 }
 
 .wxParser-h2 {
   font-size: 1.5em;
-  margin: .75em 0
+  margin: .75em 0;
 }
 
 .wxParser-h3 {
   font-size: 1.17em;
-  margin: .83em 0
+  margin: .83em 0;
 }
 
 .wxParser-h4 {
-  margin: 1.12em 0
+  margin: 1.12em 0;
 }
 
 .wxParser-h5 {
   font-size: .83em;
-  margin: 1.5em 0
+  margin: 1.5em 0;
 }
 
 .wxParser-h6 {
   font-size: .75em;
-  margin: 1.67em 0
+  margin: 1.67em 0;
 }
 
 .wxParser-h1,
@@ -62,7 +66,7 @@
 .wxParser-h6,
 .wxParser-b,
 .wxParser-strong {
-  font-weight: bolder
+  font-weight: bolder;
 }
 
 .wxParser-i,
@@ -70,7 +74,7 @@
 .wxParser-em,
 .wxParser-var,
 .wxParser-address {
-  font-style: italic
+  font-style: italic;
 }
 
 .wxParser-pre,
@@ -78,11 +82,11 @@
 .wxParser-code,
 .wxParser-kbd,
 .wxParser-samp {
-  font-family: monospace
+  font-family: monospace;
 }
 
 .wxParser-pre {
-  white-space: pre
+  white-space: pre;
 }
 
 .wxParser-big {
@@ -96,22 +100,30 @@
 }
 
 .wxParser-sub {
-  vertical-align: sub
+  vertical-align: sub;
 }
 
 .wxParser-sup {
-  vertical-align: super
+  vertical-align: super;
 }
 
 .wxParser-s,
 .wxParser-strike,
 .wxParser-del {
-  text-decoration: line-through
+  text-decoration: line-through;
 }
 
 .wxParser-strong,
 .wxParser-s {
-  display: inline
+  display: inline;
+}
+
+.wxParser-u {
+  text-decoration: underline;
+}
+
+.wxParser-u {
+  text-decoration: underline;
 }
 
 .wxParser-a {
@@ -122,7 +134,7 @@
 
 .wxParser-video {
   text-align: center;
-  margin: 10px 0;
+  margin: 10rpx 0;
 }
 
 .wxParser-video-video {
@@ -130,16 +142,16 @@
 }
 
 .wxParser-img {
-  background-color: #efefef;
   overflow: hidden;
+  max-width: 100%;
 }
 
 .wxParser-blockquote {
   margin: 0;
-  padding: 10px 0 10px 5px;
+  padding: 10rpx 0 10rpx 5rpx;
   font-family: Courier, Calibri, "宋体";
   background: #f5f5f5;
-  border-left: 3px solid #dbdbdb;
+  border-left: 3rpx solid #dbdbdb;
 }
 
 .wxParser-ul {
@@ -155,15 +167,15 @@
 
 .wxParser-li-text {
   align-items: center;
-  line-height: 20px;
+  line-height: 20rpx;
 }
 
 .wxParser-li-circle {
   display: inline-flex;
-  width: 5px;
-  height: 5px;
+  width: 5rpx;
+  height: 5rpx;
   background-color: #333;
-  margin-right: 5px;
+  margin-right: 5rpx;
   border-radius: 50%;
 }
 
@@ -172,7 +184,7 @@
   width: 10rpx;
   height: 10rpx;
   background-color: #333;
-  margin-right: 5px;
+  margin-right: 5rpx;
 }
 
 .wxParser-li-ring {
@@ -182,42 +194,33 @@
   border: 2rpx solid #333;
   border-radius: 50%;
   background-color: #fff;
-  margin-right: 5px;
+  margin-right: 5rpx;
 }
 
-.wxParser-u {
-  text-decoration: underline;
-}
-
-.wxParser-hide {
+.wxParser-hidden {
   display: none;
-}
-
-.wxEmoji {
-  width: 16px;
-  height: 16px;
 }
 
 .wxParser-tr {
   display: flex;
-  border-right: 1px solid #e0e0e0;
-  border-bottom: 1px solid #e0e0e0;
+  border-right: 1rpx solid #e0e0e0;
+  border-bottom: 1rpx solid #e0e0e0;
 }
 
 .wxParser-th,
 .wxParser-td {
   flex: 1;
-  padding: 5px;
+  padding: 5rpx;
   font-size: 28rpx;
-  border-left: 1px solid #e0e0e0;
+  border-left: 1rpx solid #e0e0e0;
   word-break: break-all;
 }
 
 .wxParser-td:last {
-  border-top: 1px solid #e0e0e0;
+  border-top: 1rpx solid #e0e0e0;
 }
 
 .wxParser-th {
   background: #f0f0f0;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1rpx solid #e0e0e0;
 }
