@@ -158,24 +158,27 @@
   margin: 20rpx 10rpx;
 }
 
+.wxParser-li {
+  margin: 10rpx 0;
+}
+
 .wxParser-li,
 .wxParser-li-inner {
   display: flex;
   align-items: baseline;
-  margin: 10rpx 0;
 }
 
 .wxParser-li-text {
   align-items: center;
-  line-height: 20rpx;
+  line-height: 1em;
 }
 
 .wxParser-li-circle {
   display: inline-flex;
-  width: 5rpx;
-  height: 5rpx;
+  width: 10rpx;
+  height: 10rpx;
   background-color: #333;
-  margin-right: 5rpx;
+  margin-right: 12rpx;
   border-radius: 50%;
 }
 
